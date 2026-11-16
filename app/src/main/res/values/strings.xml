@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lanzador de dados</string>
+
+    <!-- MainActivity -->
+    <string name="titulo_historial">Historial de tiradas</string>
+    <string name="btn_nueva_tirada">Nueva tirada</string>
+    <string name="btn_borrar_historial">Borrar historial</string>
+    <string name="historial_vacio">Todavía no hay tiradas. ¡Pulsa «Nueva tirada»!</string>
+    <string name="total_tiradas">Tiradas realizadas: %1$d</string>
+    <string name="item_jugador">Jugador: %1$s</string>
+    <string name="item_dado">Dado: D%1$d</string>
+    <string name="item_resultado">%1$d</string>
+
+    <!-- TiradaActivity -->
+    <string name="titulo_tirada">Nueva tirada</string>
+    <string name="hint_jugador">Nombre del jugador</string>
+    <string name="label_dado">Tipo de dado</string>
+    <string name="btn_tirar">Tirar dado</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="resultado_pendiente">Aún no has tirado</string>
+    <string name="resultado_obtenido">Has sacado: %1$d (D%2$d)</string>
+    <string name="error_nombre">Escribe el nombre del jugador</string>
+    <string name="error_tirar_antes">Primero tira el dado</string>
+
+    <!-- Opciones del Spinner -->
+    <string-array name="dados_opciones">
+        <item>D4</item>
+        <item>D6</item>
+        <item>D8</item>
+        <item>D20</item>
+    </string-array>
+</resources>
